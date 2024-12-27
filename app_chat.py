@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import psycopg2
 from gemini_integration import ask_gemini
 
 # Configuração da página
