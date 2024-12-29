@@ -5,7 +5,7 @@ import pandas as pd
 url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent"
 
 # Chave da API
-api_key = "AIzaSyCJ6hrO2-p6S6Rv1IBC3FAGwyDsJAmkyFE"  # Substitua pela sua chave da Google API
+api_key = st.secrets["DB_key_gemini"]  # Substitua pela sua chave da Google API
 
 def ask_gemini_estrategia(historico):
     
