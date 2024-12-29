@@ -30,7 +30,7 @@ if not st.session_state.autenticado:
         submit_button = st.form_submit_button(label="Entrar")
     
     if submit_button:
-        if username == "admin" and senha == "admin1":  # Substitua pelos seus valores
+        if username == "julianne" and senha == "Julianne$%1":  # Substitua pelos seus valores
             st.session_state.autenticado = True
             st.session_state.username = username
             st.session_state.senha = senha
