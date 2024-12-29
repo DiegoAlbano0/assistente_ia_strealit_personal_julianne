@@ -1,5 +1,6 @@
 import requests
 import pandas as pd
+import streamlit as st
 
 # URL do endpoint da API Gemini
 url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent"
